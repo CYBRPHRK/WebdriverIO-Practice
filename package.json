@@ -5,7 +5,7 @@
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.2",
     "@babel/register": "^7.24.6",
-    "@wdio/cli": "^8.39.1",
+    "@wdio/cli": "^8.40.3",
     "@wdio/local-runner": "^8.39.1",
     "@wdio/mocha-framework": "^8.39.0",
     "@wdio/spec-reporter": "^8.39.0"
@@ -13,5 +13,9 @@
   "scripts": {
     "wdio": "wdio run ./wdio.conf.js",
     "checkbox": "wdio run ./wdio.conf.js --spec checkbox.e2e.js",
+    "tables": "wdio run ./wdio.conf.js --spec tables.e2e.js"
+  },
+  "dependencies": {
+    "wdio": "^6.0.1"
   }
 }

@@ -1,6 +1,5 @@
 import { expect } from '@wdio/globals'
 import CheckboxPage from '../pageobjects/checkboxes.page.js'
-import checkboxesPage from '../pageobjects/checkboxes.page.js'
 
 describe('My Checkboxes application', () => {
     it('should load successfully', async () => {
